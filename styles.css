@@ -1,0 +1,92 @@
+
+
+#main{
+    background: url(images/bg.jpg);
+    background-size: cover;
+    padding-top: 3rem;
+}
+
+/*CSS variables*/
+
+/*color*/
+h1, h2, h3, h4, h5{
+    color: #4461f2;
+}
+
+#h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: #4461f2;
+
+}
+
+
+#text-array{
+    color: #f02711;
+}
+.span{
+    color: red;
+}
+
+  h1,h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+  }
+  h1 { font-size: 3.5em; }
+  h2 {
+    color: rgb(255, 29, 29);
+    font-size: 2em;
+  }
+
+.nav-link{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/*company logo CSS*/
+
+body {
+  background-color: #333;
+}
+
+#text-array{
+  font-size: 45px;
+}
+
+/*#img {
+  width: 150px;
+  height: 70px;
+  animation: scroll 30s linear infinite;
+}*/
+.slide{
+  width: 150px;
+  height: 240px;
+  animation: scroll 30s linear infinite;
+}
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 10em;
+  overflow: hidden;
+}
+/*#slide-track {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}*/
+
+.slider {
+  margin-top: 4px;
+  background-color: whitesmoke;
+  padding: 2em .1em;
+}
+
+
+@keyframes scroll {
+  0% {transform: translateX(0);}
+  100% {transform: translatex(-1000%)}
+}
+
